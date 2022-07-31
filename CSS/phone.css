@@ -1,0 +1,68 @@
+/* NAVBAR */
+
+#def-nav .icon-toggle-wrapper #page-list li{
+    display: none;
+}
+
+/* FORM */
+
+#form h1{
+    font-size: 25px;
+}
+#form form{
+    width: 90%;
+}
+#form button{
+    width: 100%;
+    padding: 15px 0px;
+}
+
+/* FRANCHISE */
+
+#franchise{
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+#franchise .franchise-box{
+    width: 100%;
+    margin: 0;
+}
+#franchise .franchise-box button{
+    width: 80%;
+}
+
+/* FOOTER */
+footer .footer-contains{
+    width: 95%;
+    overflow: hidden;
+}
+footer .footer-contains p{
+    font-size: 12px;
+}
+footer .footer-contains form button{
+    margin-top: 2px;
+}
+footer .footer-contains #quick-links{
+    flex-direction: column;
+    margin: 0;
+}
+footer .footer-contains #quick-links li{
+    padding: 5px 0px;
+}
+
+#copyright p{
+    color: rgb(95, 95, 95);
+    font-size: 10px;
+    text-align: center;
+    margin: 0px 15px;
+}
+
+/* KEYFRAME */
+@keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

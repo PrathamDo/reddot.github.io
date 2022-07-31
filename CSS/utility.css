@@ -1,0 +1,33 @@
+.none{
+    display: none;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.font{
+    font-family: 'Open Sans', sans-serif;
+}
+.theme-colorbg{
+    background-color: #ff3b5f;
+}
+.footer-bg{
+    background-color: #fbfbfb;
+}
+.color-white{
+    color: white;
+}
+.color-grey{
+    color: rgb(95, 95, 95);
+}

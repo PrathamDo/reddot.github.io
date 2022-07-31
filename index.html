@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/utility.css">
+    <link rel="stylesheet" href="./CSS/laptops.css" media="only screen and (max-width: 1111px)">
+    <link rel="stylesheet" href="./CSS/tablets.css" media="only screen and (max-width: 750px)">
+    <link rel="stylesheet" href="./CSS/phone.css" media="only screen and (max-width: 465px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./Javascript/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav id="def-nav" class="flex align-center justify-space-between font">
+        <a href="#"><img src="./Resources/logo.jpg" alt="Reddot"></a>
+        <div class="icon-toggle-wrapper flex">
+            <ul id="page-list" class="flex align-center">
+                <li class="pages"><a href="#">Demos</a></li>
+                <li class="pages"><a href="#">Pages</a></li>
+                <li class="pages"><a href="#">Shop</a></li>
+                <li class="pages"><a href="#">Journal</a></li>
+                <li class="pages"><a href="#">Contact Us</a></li>
+                <li><a href="#"><i class="fa fa-user"></i></a></li>
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                <li><a href="#"><i class="fa fa-search"></i></a></li>
+            </ul>
+            <div class="menu-toggle" onclick="openCloseAnimation(); sideNavTrigger();">
+                <div id="bar1"></div>
+                <div id="bar2"></div>
+                <div id="bar3"></div>
+            </div>
+        </div>
+    </nav>
+    <div id="sideNav">
+        <div class="flex-container">
+            <div class="nav-box mg-r"><a href="#"><i class="fa fa-user"></i></a></div>
+            <div class="nav-box mg-r"><a href="#"><i class="fa fa-heart"></i></a></div>
+            <div class="nav-box mg-r"><a href="#"><i class="fa fa-shopping-bag"></i></a></div>
+            <div class="nav-box"><p onclick="openCloseAnimation(); closeSideNav();">CLOSE</p></div>
+        </div>
+        <div class="page-links">
+            <div class="page-cards mg-b"><a href="#">Demos</a></div>
+            <div class="page-cards mg-b"><a href="#">Pages</a></div>
+            <div class="page-cards mg-b"><a href="#">Shop</a></div>
+            <div class="page-cards mg-b"><a href="#">Journal</a></div>
+            <div class="page-cards mg-b"><a href="#" style="color: #ff3b5f;">Contact Us</a></div>
+        </div>
+    </div>
+    <!-- NAVBAR ENDS -->
+
+    <!-- FORM -->
+    <section id="form" class="flex column align-center justify-center theme-colorbg font color-white">
+        <h1>Send Us A Message</h1>
+        <form action="#" method="post" class="flex column">
+            <input type="text" name="username" id="username" placeholder="Your name*" class="theme-colorbg">
+            <input type="email" name="email" id="email" placeholder="Your email address*" class="theme-colorbg">
+            <input type="text" name="phno" id="phno" placeholder="Your phone number" class="theme-colorbg">
+            <input type="text" name="inquiry" id="inquiry" placeholder="Type of inquiry" class="theme-colorbg">
+            <textarea name="suggestion" id="suggestion" rows="5" placeholder="How can we help you" class="theme-colorbg"></textarea>
+            <button type="submit" class="font">Send Message</button>
+        </form>
+    </section>
+    <!-- FORM ENDS -->
+
+    <!-- FRANCHISE -->
+    <section id="franchise" class="flex font color-white">
+        <div class="franchise-box flex column justify-center align-center bg1">
+            <h1>Matches Fashion</h1>
+            <p>demo@demostore.com</p>
+            <p>+44 20 7487 5400</p>
+            <p class="address">87 Marylebone High St, Marylebone London W1U 4QU, England</p>
+            <button class="flex align-center justify-center font">View On Map</button>
+        </div>
+        <div class="franchise-box flex column justify-center align-center bg2">
+            <h1>Marcantile London</h1>
+            <p>demo@demostore.com</p>
+            <p>+44 20 7487 5400</p>
+            <p class="address">87 Marylebone High St, Marylebone London W1U 4QU, England</p>
+            <button class="flex align-center justify-center font">View On Map</button>
+        </div>
+        <div class="franchise-box flex column justify-center align-center bg3">
+            <h1>Iris Fashion</h1>
+            <p>demo@demostore.com</p>
+            <p>+44 20 7487 5400</p>
+            <p class="address">87 Marylebone High St, Marylebone London W1U 4QU, England</p>
+            <button class="flex align-center justify-center font">View On Map</button>
+        </div>
+        <div class="franchise-box flex column justify-center align-center bg4">
+            <h1>Goodhood</h1>
+            <p>demo@demostore.com</p>
+            <p>+44 20 7487 5400</p>
+            <p class="address">87 Marylebone High St, Marylebone London W1U 4QU, England</p>
+            <button class="flex align-center justify-center font">View On Map</button>
+        </div>
+    </section>
+    <!-- FRANCHISE ENDS -->
+
+    <!-- FOOTER -->
+    <footer class="flex column justify-center footer-bg font color-grey">
+        <div class="footer-contains">
+            <a href="#"><img src="./Resources/footer_logo.jpg" alt="Reddot"></a>
+            <p>High-quality Woocommerce WordPress theme built with WPBakery Page Builder and guaranteed on ThemeForest.</p>
+            <form action="#" method="post" class="flex align-center justify-center">
+                <input type="email" name="email" id="email" placeholder="Enter your email address...">
+                <button type="submit">&#x2192;</button>
+            </form>
+            <ul id="quick-links" class="flex justify-center">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Journal</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+    <section id="copyright" class="flex justify-center align-center">
+        <p class="font footer-bg">&copy; 2019 REDDOT ALL RIGHTS RESERVED. DESIGNED BY 9AMSTUDIO</p>
+    </section>
+    <!-- FOOTER ENDS-->
+</body>
+</html>

@@ -1,0 +1,224 @@
+/* BASIC */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+#def-nav{
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 20px 40px;
+}
+#def-nav img{
+    width: 120px;
+}
+#def-nav .icon-toggle-wrapper #page-list{
+    top: 0;
+    left: 0;
+}
+#def-nav .icon-toggle-wrapper #page-list li{
+    list-style-type: none;
+}
+#def-nav .icon-toggle-wrapper #page-list li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+#def-nav .icon-toggle-wrapper #page-list li a:hover, #def-nav .icon-toggle-wrapper #page-list li a i:hover{
+    color: #ff3b5f;
+}
+#def-nav .icon-toggle-wrapper #page-list li a i{
+    font-size: 20px;
+}
+#def-nav .icon-toggle-wrapper .menu-toggle{
+    display: none;
+}
+#sideNav{
+    display: none;
+}
+
+/* FORM */
+
+#form{
+    padding: 70px 10px;
+}
+#form h1{
+    font-size: 35px;
+}
+#form form{
+    width: 35%;
+    margin: auto;
+}
+#form form input, #form form textarea{
+    outline: 0;
+    border: none;
+    padding: 15px 5px;
+    border-bottom: 1px solid white;
+    margin-top: 30px;
+    caret-color: white;
+    color: white;
+}
+#form form input::placeholder, #form form textarea::placeholder{
+    color: white;
+}
+#form form input::selection, #form form textarea::selection{
+    color: black;
+    background-color: white;
+}
+#form button{
+    width: 50%;
+    margin: 40px auto;
+    padding: 25px 0px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#form button:hover{
+    cursor: pointer;
+}
+
+/* FRANCHISE */
+
+#franchise{
+    overflow: hidden;
+    background-color: #000;
+}
+#franchise .bg1{
+    background: url(../Resources/bg1.jpg) no-repeat center center/cover;
+}
+#franchise .bg2{
+    background: url(../Resources/bg2.jpg) no-repeat center center/cover;
+}
+#franchise .bg3{
+    background: url(../Resources/bg3.jpg) no-repeat center center/cover;
+}
+#franchise .bg4{
+    background: url(../Resources/bg4.jpg) no-repeat center center/cover;
+}
+#franchise .franchise-box{
+    width: 25%;
+    height: 15rem;
+    margin: 0px auto;
+    padding: 40px 5px 10px 5px;
+}
+#franchise .franchise-box h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#franchise .franchise-box p{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(233, 233, 233);
+}
+#franchise .franchise-box p.address{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+#franchise .franchise-box button{
+    width: 40%;
+    padding: 10px 0px;
+    margin: 20px auto;
+    border: 0.5px solid white;
+    background-color: transparent;
+    color: white;
+}
+#franchise .franchise-box button:hover{
+    cursor: pointer;
+    border: 0.5px solid black;
+    background-color: white;
+    color: black;
+}
+
+/* FOOTER */
+footer{
+    padding: 50px 25px;
+}
+footer .footer-contains{
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+}
+footer .footer-contains p{
+    margin: 25px 0px;
+    font-size: 14px;
+}
+footer .footer-contains form{
+    height: 90px;
+}
+footer .footer-contains form input{
+    width: 90%;
+    padding: 10px 5px;
+    margin: 30px 0px;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    caret-color: rgb(194, 194, 194);
+    color: grey;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+footer .footer-contains form input::placeholder{
+    color: rgb(95, 95, 95);
+    font-family: 'Open Sans', sans-serif;
+}
+footer .footer-contains form button{
+    top: 0%;
+    left: 0%;
+    border: none;
+    background-color: transparent;
+    color: rgb(95, 95, 95);
+    font-size: 30px;
+    margin-top: 2px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+footer .footer-contains form button:hover{
+    cursor: pointer;
+    color: #000;
+}
+footer .footer-contains #quick-links{
+    top: 0;
+    left: 0;
+    margin: 30px 0px;
+}
+footer .footer-contains #quick-links li{
+    list-style: none;
+}
+footer .footer-contains #quick-links li a{
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0px 25px;
+}
+footer .footer-contains #quick-links li a:hover{
+    color: #000;
+}
+#copyright{
+    padding: 0px 25px;
+    background-color: #fbfbfb;
+}
+#copyright p{
+    color: rgb(95, 95, 95);
+    font-size: 12px;
+    text-align: center;
+    margin: 0px 15px;
+}
